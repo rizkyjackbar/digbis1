@@ -6,9 +6,9 @@ const About = () => {
                     Nusaena Resto
                 </a>
                 <p className="mt-8 mb-8">
-                Destinasi kuliner yang menawarkan pengalaman unik dalam menyantap hidangan modern dengan sentuhan tradisional. Terletak di pusat kota yang ramai, restoran ini telah menjadi tujuan favorit bagi pecinta kuliner yang menghargai keaslian cita rasa Indonesia yang dibalut dengan nuansa modern.
+                Selamat datang di Nusaena Resto! Kami menghadirkan pengalaman kuliner yang berbeda dengan menyajikan beragam menu masakan lokal dan internasional yang cocok di lidah masyarakat Indonesia. Nikmati kemudahan pemesanan makanan melalui website kami yang user-friendly, memungkinkan anda untuk melihat menu, memilih makanan, dan memesan tanpa repot. Dengan sistem pemesanan online kami, Anda bisa menikmati pelayanan yang cepat dan akurat tanpa khawatir pesanan salah atau tertunda. Kami juga menjamin transparansi harga dengan menampilkan semua biaya secara jelas di website. Rasakan kelezatan setiap hidangan dan nikmati pelayanan prima hanya di Nusaena Resto!
                 </p>
-                <p>Nusaena Resto menawarkan menu yang kreatif dan beragam, menggabungkan cita rasa tradisional Indonesia dengan sentuhan modern yang memikat lidah. Dari hidangan utama hingga hidangan penutup, setiap sajian diolah dengan hati dan menggunakan bahan-bahan berkualitas tinggi. Para koki berbakat restoran ini tidak hanya mempersembahkan hidangan lezat, tetapi juga menghadirkan kreasi-kreasi baru yang memukau dan memanjakan indera.</p>
+                <p>Nusaena Resto merupakan sebuah rumah makan yang memiliki berbagai macam jenis masakan. Dalam pelayanannya, Nusaena Resto juga menyediakan media pemesanan online melalui website. Dengan begitu pelanggan tidak perlu bersusah payah untuk menuliskan menu yang dipesan menggunakan kertas, melainkan dapat mengakses website yang sudah disediakan untuk pemesanan makanan.</p>
             </div>
         </section>
     );

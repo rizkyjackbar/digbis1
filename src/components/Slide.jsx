@@ -1,14 +1,15 @@
-// import React from 'react';
 import PropTypes from 'prop-types';
 
-const Slide = ({ imageUrl, text, link, prevSlide, nextSlide }) => {
+const Slide = ({ imageUrl, text, prevSlide, nextSlide }) => {
     return (
         <div className="carousel-item absolute opacity-0" style={{ height: '50vh' }}>
-            <div className="h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-right" style={{ backgroundImage: `url('${imageUrl}')` }}>
-                <div className="container mx-auto">
-                    <div className="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
-                        <p className="text-black text-2xl my-4">{text}</p>
-                        <a className="text-xl inline-block no-underline border-b border-gray-600 leading-relaxed hover:text-black hover:border-black" href={link}>get menu</a>
+            <div className="h-full w-full mx-auto relative">
+                <div className="absolute inset-0 bg-black opacity-50"></div>
+                <div className="h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-right" style={{ backgroundImage: `url('${imageUrl}')` }}>
+                    <div className="container mx-auto relative">
+                        <div className="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide relative z-10">
+                            <p className="text-white text-2xl my-4">{text}</p>
+                        </div>
                     </div>
                 </div>
             </div>

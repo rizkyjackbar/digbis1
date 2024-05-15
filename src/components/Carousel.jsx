@@ -1,4 +1,3 @@
-// import React from 'react';
 import Slide from './Slide';
 
 const Carousel = () => {
@@ -10,7 +9,6 @@ const Carousel = () => {
                 <Slide
                     imageUrl="https://images.unsplash.com/photo-1606836576983-8b458e75221d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D"
                     text={<span><span style={{ color: 'white' }}>Harmoni antara</span> warisan kuliner tradisional Indonesia <span style={{ color: 'white' }}>dengan nuansa</span> modern yang elegan.</span>}
-                    link="#"
                 />
 
                 {/* Slide 2 */}
@@ -18,7 +16,6 @@ const Carousel = () => {
                 <Slide
                     imageUrl="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     text={<span><span style={{ color: 'white' }}>Ditangani oleh lulusan</span> koki terbaik dunia..</span>}
-                    link="#"
                 />
 
                 {/* Slide 3 */}
@@ -26,7 +23,6 @@ const Carousel = () => {
                 <Slide
                     imageUrl="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     text="Memastikan bahwa setiap kunjungan ke Nusaena Resto menjadi pengalaman yang istimewa dan berkesan."
-                    link="#"
                 />
 
                 {/* Indicators */}

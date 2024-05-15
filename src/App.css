@@ -1,17 +1,34 @@
-@keyframes wave {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+.carousel-item {
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.5s ease-in-out;
 }
 
-.wave-bg {
-  background: linear-gradient(to right, #0ea5e9, #4f46e5);
-  background-size: 200% 200%;
-  animation: wave 2s ease infinite;
+.carousel-open:checked + .carousel-item {
+  opacity: 1;
+  position: relative;
+  z-index: 10;
+}
+
+.carousel-bullet {
+  transition: color 0.3s ease;
+}
+
+.prev, .next {
+  display: block;
+}
+
+.carousel-item.opacity-100 {
+  opacity: 1;
+  position: relative;
+  z-index: 10;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 15;
 }
